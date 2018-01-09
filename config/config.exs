@@ -6,7 +6,7 @@
 use Mix.Config
 
 config :cqerl, 
-  cassandra_nodes: [{"127.0.0.1", 9042},{"127.0.0.1", 9042}],#, {"10.0.0.2", 9042}
+  cassandra_nodes: [{"52.230.85.143", 9042},{"52.230.85.143", 9042}],#, {"10.0.0.2", 9042}
   keyspace: "keyspace"
 
 # General application configuration
